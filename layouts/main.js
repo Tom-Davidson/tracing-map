@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import SiteHeader from '../components/siteheader';
+import SiteFooter from '../components/sitefooter';
 
 function MainLayout(props) {
 	return (
@@ -10,23 +10,12 @@ function MainLayout(props) {
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
 				<meta name="description" content="Visually map your system interactions from its tracing." key="description" />
-				<link
-					rel="stylesheet"
-					type="text/css"
-					href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-				/>
-				<link rel="shortcut icon" type="image/png" href="/static/favicon.png" />
-				<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans&display=swap" rel="stylesheet" />
+				<link rel="shortcut icon" type="image/png" href="/favicon.ico" />
 			</Head>
-			<Header />
+			<SiteHeader />
 			<div className="content">{props.children}</div>
-			<Footer />
+			<SiteFooter />
 			<style jsx global>{`
-				div.content {
-					padding: 20px;
-					background-color: #faecee;
-					min-height: 400px;
-				}
 			`}</style>
 		</div>
 	);

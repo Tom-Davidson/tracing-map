@@ -10,3 +10,5 @@ Visually map your system interactions from its tracing.
 - `./public` for everything that doesn't need processing such as images, pdfs and custom fonts.
 
 To 'watch' in a dev environment run `npm run dev` and point your web browser to [http://localhost:3000/](http://localhost:3000/).
+
+It includes the [React Semantic UI library](https://react.semantic-ui.com/) so those components are available.
