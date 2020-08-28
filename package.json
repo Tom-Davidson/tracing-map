@@ -4,6 +4,10 @@
 	"description": "Visually map your system interactions from its tracing.",
 	"author": "Tom Davidson",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com:Tom-Davidson/tracing-map.git"
+	},
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
