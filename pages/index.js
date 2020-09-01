@@ -89,7 +89,7 @@ function HomePage({ mapData, env }) {
 }
 HomePage.getInitialProps = async (ctx) => {
 	const rnd = Math.random();
-	const res = await fetch(`http://localhost:3000/map.json?${rnd}`);
+	const res = await fetch(`http://localhost:3000/api/map?${rnd}`);
 	const json = await res.json();
 	return { mapData: json, env: process.env.SOMEVAR };
 };
