@@ -2,12 +2,12 @@
 	"nodes": [
 		{ "id": "Harry" },
 		{ "id": "Sally" },
-		{ "id": "Alice" },
+		{ "id": "Alice", "color": "red" },
 		{ "id": "Bob" }
 	],
 	"links": [
-		{ "source": "Harry", "target": "Sally", "label": "When Harry Met Sally" },
-		{ "source": "Harry", "target": "Alice" },
-		{ "source": "Alice", "target": "Bob" }
+		{ "source": "Harry", "target": "Sally", "label": "When Harry Met Sally", "value": 5 },
+		{ "source": "Harry", "target": "Alice", "value": 25, "color": "red" },
+		{ "source": "Alice", "target": "Bob", "value": 100 }
 	]
 }
