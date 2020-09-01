@@ -1,3 +1,13 @@
 {
-	"random_data_a": 12345
+	"nodes": [
+		{ "id": "Harry" },
+		{ "id": "Sally" },
+		{ "id": "Alice" },
+		{ "id": "Bob" }
+	],
+	"links": [
+		{ "source": "Harry", "target": "Sally", "label": "When Harry Met Sally" },
+		{ "source": "Harry", "target": "Alice" },
+		{ "source": "Alice", "target": "Bob" }
+	]
 }
